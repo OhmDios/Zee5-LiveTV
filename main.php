@@ -1,5 +1,5 @@
 <?php
-// usage main.php?c=0-9-129
+// usage main.php?c=0-9-129 
 $input = $_GET["c"];
 if (!$input){
    exit("Channel ID not found");
@@ -15,3 +15,10 @@ function JsonfromURI($url) {
    $resp = file_get_contents($url);       
    return json_decode($resp);
 };
+
+
+/*
+ALSO REFER https://github.com/avipatilpro
+
+
+*/
